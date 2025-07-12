@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Write Report",
+    "task": {
+      "title": "Medialab",
+      "description": "project",
+      "category": "Education",
+      "priority": {
+        "name": "High"
+      },
+      "deadline": "2025-02-26",
+      "status": {
+        "name": "In Progress"
+      }
+    },
+    "reminderDate": "2025-02-19",
+    "type": "1 week before"
+  },
+  {
+    "name": "Check Grades",
+    "task": {
+      "title": "Grades",
+      "description": "check grades",
+      "category": "Personal",
+      "priority": {
+        "name": "Default"
+      },
+      "deadline": "2025-02-28",
+      "status": {
+        "name": "Open"
+      }
+    },
+    "reminderDate": "2025-02-27",
+    "type": "1 day before"
+  },
+  {
+    "name": "Remember to Ask",
+    "task": {
+      "title": "Doctor",
+      "description": "appointment",
+      "category": "Health",
+      "priority": {
+        "name": "Moderate"
+      },
+      "deadline": "2025-02-21",
+      "status": {
+        "name": "Delayed"
+      }
+    },
+    "reminderDate": "2025-02-21",
+    "type": "Custom"
+  },
+  {
+    "name": "patra",
+    "task": {
+      "title": "love",
+      "description": "stefi",
+      "category": "teti",
+      "priority": {
+        "name": "foxy"
+      },
+      "deadline": "2025-02-26",
+      "status": {
+        "name": "In Progress"
+      }
+    },
+    "reminderDate": "2025-02-20",
+    "type": "Custom"
+  }
+]

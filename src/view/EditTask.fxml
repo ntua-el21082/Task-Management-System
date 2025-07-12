@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="443.0" prefWidth="250.0" spacing="10" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EditTaskController">
+   <Label prefHeight="17.0" prefWidth="209.0" text="Title" />
+    
+          <TextField fx:id="Title_textfield" maxWidth="-Infinity" prefHeight="25.0" prefWidth="217.0" />
+   <Label prefHeight="17.0" prefWidth="212.0" text="Description" />
+    <TextArea fx:id="Description_textarea" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="47.0" prefWidth="219.0" />
+   <Label prefHeight="17.0" prefWidth="220.0" text="Category" />
+    <ComboBox fx:id="Category_box" prefHeight="25.0" prefWidth="216.0" />
+   <Label prefHeight="17.0" prefWidth="215.0" text="Priority" />
+    <ComboBox fx:id="Priority_box" prefHeight="25.0" prefWidth="219.0" />
+   <Label prefHeight="17.0" prefWidth="218.0" text="Status" />
+    <ComboBox fx:id="Status_box" prefHeight="25.0" prefWidth="217.0" />
+   <Label prefHeight="17.0" prefWidth="212.0" text="Reminder" />
+    <DatePicker fx:id="Reminder_datepicker" prefHeight="25.0" prefWidth="205.0" />
+    
+          <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="33.0" prefWidth="168.0" spacing="10">
+        <Button fx:id="SaveTask_button" onAction="#SaveTask" prefHeight="32.0" prefWidth="79.0" style="-fx-background-color: #004666; -fx-text-fill: #FFFFFF;" text="Edit Task" />
+        <Button fx:id="Cancel_button" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#Cancel" prefHeight="28.0" prefWidth="61.0" style="-fx-background-color: #424242; -fx-text-fill: #FFFFFF;" text="Cancel" />
+    </HBox>
+</VBox>
